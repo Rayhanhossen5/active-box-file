@@ -1,0 +1,220 @@
+/*!
+ * Template Name/Project Name: XYZ
+ * Developer Name: Md Rayhan
+ * Conatct: rayhanhossen222@gmail.com
+ * Visit: https://abc.info
+ */
+ /* common code start */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+ body{
+   margin: 0;
+ }
+ :root{
+    --brand-color: #e84545;
+    --white-color: #fff;
+    --secondary-color: #66697e; 
+    --primary-color: #80858b;
+    --h-color: #454749;
+ }
+ h1,h2,h3,h4,h5,h6, a, small, p{
+  font-family: 'Roboto', sans-serif;
+ }
+  /* common code start */
+ /* header part start  */
+ .header-section{
+    background: url(../img/background.jpg);
+    padding-bottom: 100px;
+ }
+ /* nav part start  */
+ .navbar-brand{
+    color: var(--secondary-color);
+    font-size: 35px;
+    font-weight: 700;
+ }
+ .navbar-brand span{
+    color: var(--white-color);
+    font-weight: 100;
+ }
+ .nav-link{
+    color: var(--white-color);
+    font-size: 14pt;
+    margin-left: 16px;
+    font-weight: 300;
+ }
+ .navbar-nav{
+    --bs-nav-link-hover-color: var(--brand-color);
+ }
+ /* nav part end  */
+ /* banner part start  */
+ .banner .banner-content h2{
+    font-size: 45pt;
+    font-weight: 600;
+ }
+ .banner .banner-content p{
+   font-size: 13pt;
+   font-weight: 400;
+ }
+ /* banner part end  */
+ /* header part end  */
+
+ /* main part start  */
+ .easily-custom{
+  padding-top: 40px;
+ }
+ .easily-custom i{  /*easily*/
+   color: #EF4347;
+ }
+ .easily-custom h3{
+   font-size: 20pt;
+   font-weight: 600;
+ }
+ .easily-custom p{
+   text-align: justify;
+   font-size: 16px;
+   color: var(--primary-color);
+   font-weight: 300;
+ }
+ /* main part start  */
+ /* image gallary start  */
+ .image-content{
+  position: relative;
+  overflow: hidden;
+ }
+ img, svg {
+  vertical-align: middle;
+  width: 100%;
+}
+ .image-content-overlay{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 17, 0,.5);
+  position: absolute;
+  top: -100%;
+  transition: .8s;
+ }
+ .image-content-overlay h3{
+  position: relative;
+  top: 40%;
+  font-size: 22px;
+ }
+ .image-content-overlay small{
+  position: relative;
+  top: 40%;
+  font-size: 14px;
+  display: inline-block;
+ }
+ .image-content:hover  .image-content-overlay{
+  top: 0px;
+ }
+ /* image gallary end  */
+
+ /* card gallary start  */
+ .card{
+  border: none;
+ }
+ .card-gallry-section h5{
+   color: var(--h-color);
+   font-size: 18pt; 
+   font-weight: 400;
+ }
+ .card-gallry-section p{
+   color: var(--primary-color);
+   font-weight: 300;
+ }
+ .card-gallry-section a i{
+   transition: .5s; 
+ }
+ .card-gallry-section a .fa-facebook-f:hover{
+   background-color: #4064AC;
+   color: white;
+ }
+ .card-gallry-section a .fa-twitter:hover{  
+   background-color: #1C9CEA;
+   color: white;
+ }
+ .card-gallry-section a .fa-linkedin:hover{  
+   background-color: #0073AF;
+   color: white;
+ }
+ /* card gallary end  */
+ /* slide-section part start  */
+ .slide-imgage{
+  min-height: 400px;
+ }
+ .slide-content{
+   background-color: #53354A;
+   background-size: cover;
+   height: auto;
+ }
+ .slide-content .carousel-item{
+   padding: 50px;
+   margin-top: 40px;
+   color: var(--white-color);
+ }
+ .slide-content .carousel-item{
+  font-size: 18pt;
+ }
+ .carousel-indicators [data-bs-target] {
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+ }
+ /* slid-section part end  */
+ 
+ /* ready section start  */
+ .ready-section h2{
+   font-size: 28pt;
+   font-weight: 300;
+ }
+ .ready-section p{
+   font-size: 22px;
+   font-weight: 600;
+ }
+/* ready section end  */
+/* big footer start  */
+  .bfooter-section{
+   background-color: #3A3E64;
+  }
+  .bfooter-section h3{
+   font-size: 16pt;
+   font-weight: 400;
+  }
+  .bfooter-section p{
+   font-size: 14pt;
+   color: var(--primary-color);
+   margin-bottom: 0rem;
+   font-weight: 300;
+  }
+  .fa-facebook-f:before {
+    content: "\f39e";
+    padding: 3px 3.5px;
+}
+.fa-linkedin:before {
+  content: "\f08c";
+  padding: 1.3px;
+}
+  .bfooter-section a .fa-facebook-f:hover{
+   background-color: #4064AC;
+   color: white;
+ }
+ .bfooter-section a .fa-twitter:hover{  
+   background-color: #1C9CEA;
+   color: white;
+ }
+ .bfooter-section a .fa-linkedin:hover{  
+   background-color: #0073AF;
+   color: white;
+ }
+/* big footer end  */
+
+/* footer part start  */
+.footer-section{
+   background-color: #313454;
+}
+.footer-section p{
+   color: var(--primary-color);
+   font-size: 14pt;
+   margin-bottom: 0px;
+   font-weight: 400;
+}
+/* footer part end  */

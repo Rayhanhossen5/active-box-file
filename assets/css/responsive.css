@@ -1,0 +1,322 @@
+@media (min-width: 0px) and (max-width: 575px){
+    /* header start */
+    .header-section{
+        padding-bottom: 50px;
+     }
+     .navbar{
+        max-height: 75px;
+        position: relative;
+        z-index: 1;
+     }
+     .navbar .nav-link{
+        background: var(--brand-color);
+        border-bottom: 1px solid #FFF;
+        padding: 10px;
+        display: inline-block;
+        min-width: 150px;
+    }
+    .navbar .nav-link:hover{
+        color: black;
+    }
+    .pt-5 {
+        padding-top: 1.5rem !important;
+    }
+    p .pt-3 {
+        padding-top: 0rem !important;
+    }
+     a .mt-5 {
+        margin-top: 1.2rem !important; 
+    }
+    .banner .banner-content h2{
+        font-size: 25px;
+     }
+     .banner .banner-content p{
+        font-size: 15px;
+        margin: 10px; 
+     }
+     .mt-5 {
+        margin-top: 2rem !important;
+    }
+    .py-5 {
+        padding-top: 1rem !important;
+        padding-bottom: 3rem !important;
+    }
+    /* header end */
+    /* main part start*/
+    .easily-custom{
+        padding-top: 15px;
+    }
+    .easily-custom h3 {
+        font-size: 18pt;
+    }
+    .easily-custom p{
+         font-size: 15px;
+      }
+    /* main part end*/
+    
+    /* slide part start  */
+    .slide-content {
+        padding: 40px;
+    }
+    .slide-content .carousel-item {
+        font-size: 16pt;
+    }
+    /* slide part end  */
+
+     /* ready section start  */
+    .ready-section h2{
+        font-size: 15pt;
+    }
+     .ready-section p{
+        font-size: 12px;
+    }
+  /* ready section end  */
+  /* big fotter start  */
+  .bfooter-section .row > * {
+    padding-right: calc(var(--bs-gutter-x) * .0);
+    padding-left: calc(var(--bs-gutter-x) * .1);
+    padding: 50px 0px 0px 0px;
+}
+  .bfooter-section h3{
+    font-size: 15pt;
+   }
+   .bfooter-section p{
+    font-size: 12pt;
+    color: var(--primary-color);
+    margin-bottom: 0rem;
+   }
+   .bfooter-section a i{
+    padding: 8px !important;
+   }
+   .py-5 {
+    padding-bottom: 3rem !important;
+}
+  /* big fotter end  */
+  /* footer part start  */
+  .footer-section{
+    background-color: #313454;
+ }
+ .footer-section p{
+    font-size: 10pt;
+ }.footer-section{
+    background-color: #313454;
+ }
+ .footer-section p{
+    font-size: 10pt;
+ }
+ .py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 5rem !important;
+}
+  /* footer part end  */
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+        /* header start */
+        .header-section{
+            padding-bottom: 60px;
+         }
+         .navbar{
+            max-height: 75px;
+            position: relative;
+            z-index: 1;
+         }
+         .navbar .nav-link{
+            background: var(--brand-color);
+            border-bottom: 1px solid #FFF;
+            padding: 10px;
+            display: inline-block;
+            min-width: 200px;
+        }
+        .navbar .nav-link:hover{
+            color: black;
+        }
+        .pt-5 {
+            padding-top: 2rem !important;
+        }
+        p .pt-3 {
+            padding-top: 1rem !important;
+        }
+         a .mt-5 {
+            margin-top: 2.2rem !important; 
+        }
+        .banner .banner-content h2{
+            font-size: 40px;
+         }
+         .banner .banner-content p{
+            font-size: 20px;
+            margin: 10px; 
+         }
+         .mt-5 {
+            margin-top: 2rem !important;
+        }
+        .py-5 {
+            padding-top: 1rem !important;
+            padding-bottom: 3rem !important;
+        }
+        /* header end */
+        /* main part start*/
+        .easily-custom h3 {
+            font-size: 18pt;
+        }
+        /* main part end*/
+
+        /* slide part start  */
+        .slide-content {
+            padding: 50px;
+        }
+        .slide-content .carousel-item {
+            font-size: 16pt;
+        }
+        /* slide part end  */
+
+         /* ready section start  */
+        .ready-section h2{
+            font-size: 15pt;
+        }
+         .ready-section p{
+            font-size: 15px;
+        }
+      /* ready section end  */
+      /* big fotter start  */
+      .bfooter-section .row > * {
+        padding-right: calc(var(--bs-gutter-x) * .0);
+        padding-left: calc(var(--bs-gutter-x) * .1);
+    }
+      .bfooter-section h3{
+        font-size: 15pt;
+       }
+       .bfooter-section p{
+        font-size: 15pt;
+        color: var(--primary-color);
+        margin-bottom: 0rem;
+       }
+       .bfooter-section a i{
+        padding: 5px;
+       }
+       .bfooter-section .p-3 {
+        padding: 10px !important;
+       }
+       .icon{
+        padding: 60px 0px 80px 0px;
+       }
+      /* big fotter end  */
+      /* footer part start  */
+      .footer-section{
+        background-color: #313454;
+     }
+     .footer-section p{
+        font-size: 10pt;
+     }.footer-section{
+        background-color: #313454;
+     }
+     .footer-section p{
+        font-size: 10pt;
+     }
+      /* footer part end  */
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+     /* header start */
+     .header-section{
+        padding-bottom: 60px;
+     }
+     .navbar{
+        max-height: 75px;
+        position: relative;
+        z-index: 1;
+     }
+     .navbar .nav-link{
+        background: var(--brand-color);
+        border-bottom: 1px solid #FFF;
+        padding: 10px;
+        display: inline-block;
+        min-width: 200px;
+    }
+    .navbar .nav-link:hover{
+        color: black;
+    }
+    .pt-5 {
+        padding-top: 2rem !important;
+    }
+    p .pt-3 {
+        padding-top: 1rem !important;
+    }
+     a .mt-5 {
+        margin-top: 2.2rem !important; 
+    }
+    .banner .banner-content h2 {
+        font-size: 40pt;
+    }
+     .banner .banner-content p{
+        font-size: 20px;
+        margin: 10px; 
+     }
+     .mt-5 {
+        margin-top: 2rem !important;
+    }
+    .py-5 {
+        padding-top: 1rem !important;
+        padding-bottom: 3rem !important;
+    }
+    /* header end */
+    /* main part start*/
+    .easily-custom h3 {
+        font-size: 17pt;
+    }
+    /* main part end*/
+
+    /* card part start  */
+    .card-gallry-section h5{
+        font-size: 18px; 
+    }
+    .card-gallry-section small{
+        font-size: 12px; 
+    }
+    .card-gallry-section p{
+        font-size: 13px; 
+    }
+    /* card part end  */
+
+     /* ready section start  */
+    .ready-section h2{
+        font-size: 20pt;
+    }
+     .ready-section p{
+        font-size: 20px;
+    }
+  /* ready section end  */
+  /* big fotter start  */
+  .bfooter-section .row > * {
+    padding-right: calc(var(--bs-gutter-x) * .0);
+    padding-left: calc(var(--bs-gutter-x) * .1);
+}
+  .bfooter-section h3{
+    font-size: 12pt;
+   }
+   .bfooter-section p{
+    font-size: 12pt;
+    color: var(--primary-color);
+    margin-bottom: 0rem;
+   }
+   .bfooter-section a i{
+    padding: 5px;
+   }
+   .bfooter-section .p-3 {
+    padding: 10px !important;
+   }
+  /* big fotter end  */
+  /* footer part start  */
+  .footer-section{
+    background-color: #313454;
+ }
+ .footer-section p{
+    font-size: 10pt;
+ }.footer-section{
+    background-color: #313454;
+ }
+ .footer-section p{
+    font-size: 10pt;
+ }
+  /* footer part end  */
+}
